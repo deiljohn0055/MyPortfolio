@@ -840,6 +840,36 @@ color: white;
     background-color: #131313;
     color: aliceblue;
 }
+.visit{
+    background-color: rgba(0, 0, 0, 0.602);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.vis{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid var(--main-color);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-color);
+    font-size: 20px;
+}
+.indipro:hover .visit{
+    display: flex;
+}
+.vis:hover{
+    color: rgb(255, 255, 255);
+    border-color: rgb(250, 250, 250);
+    background-color: var(--main-color);
+}
 /* Btn */
 .btn{
     display: inline-block;
