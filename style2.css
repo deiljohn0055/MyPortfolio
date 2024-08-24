@@ -17,7 +17,8 @@
 .cont{
     height: 100vh;
     width: 100%;
-    background-color: aliceblue;
+    background: rgb(3,18,115);
+    background: linear-gradient(90deg, rgba(3,18,115,1) 0%, rgba(54,73,195,1) 33%, rgba(255,255,255,1) 67%, rgba(255,0,95,1) 100%);
     display: flex;
     transition: 0.5s  ease-in-out;
      cursor: pointer;
@@ -222,17 +223,20 @@
  }
 
 #box1{
-background-color: #4861dc;
+    background: rgb(72,63,251);
+    background: radial-gradient(circle, rgba(72,63,251,1) 52%, rgba(219,33,235,1) 100%);
 color: white;
 }
 #box2{
     background-color: #8512d800;
 }
 #box3{
-    background-color: #e69553;
+    background: rgb(180,58,58);
+background: linear-gradient(90deg, rgba(223,186,81,1) 0%,rgba(180,58,58,1) 100%);
 }
 #box4{
-    background-color: rgb(226, 202, 94);
+    background: rgb(101,214,105);
+background: linear-gradient(0deg, rgba(101,214,105,1) 0%, rgba(220,231,112,1) 34%, rgba(184,194,89,1) 100%);
 }
 #conhome{
     border-radius: 90% 0 0 0 ;
@@ -434,7 +438,8 @@ color: white;
     position: absolute;
     height: 100vh;
     width: 100%;
-    background-color: #b768f0;
+    background: rgb(121,33,235);
+background: radial-gradient(circle, rgba(121,33,235,1) 73%, rgba(251,63,63,1) 100%);
     cursor: default;
 }
 #aboutbtn{
@@ -920,7 +925,7 @@ color: white;
 }
 .text-animation span::after{
     content: "";
-    background-color: aliceblue;
+    background: linear-gradient(90deg, rgb(28, 50, 192) 0%, rgba(54,73,195,1) 33%) ;
     position: absolute;
     width: calc(100% + 80px);
     height: 100%;
