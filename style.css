@@ -601,7 +601,7 @@
 #form p {
     font-size: 20px;
 }
-#firstname, #lastname{
+#firstname, #lastname, #email{
     height: 50px;
     width: 400px;
     border-radius: 2px;
