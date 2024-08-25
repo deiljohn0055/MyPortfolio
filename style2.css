@@ -619,7 +619,7 @@ background: radial-gradient(circle, rgba(121,33,235,1) 73%, rgba(251,63,63,1) 10
 #form p {
     font-size: 20px;
 }
-#firstname, #lastname{
+#firstname, #lastname, #email{
     height: 50px;
     width: 400px;
     border-radius: 2px;
