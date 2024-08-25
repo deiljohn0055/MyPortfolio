@@ -16,7 +16,7 @@
                  <h2 class="text-animation">I'm a <span></span></h2><br>
                  <p> With a strong foundation in front-end and back-end web development, coupled with hands-on experience in creating dynamic websites, optimizing user interfaces, and managing databases, I am dedicated to delivering innovative solutions that enhance user experience and drive business growth</p>
                  <div class="btn-group">
-                    <a href="#Contact" class="btn">Appoint Me</a>
+                    <a id="appoint" class="btn">Appoint Me</a>
                 </div>
             </div>
             <div class="myimg">
@@ -252,6 +252,7 @@
         const sw = document.querySelector('#switch');
         const linked = document.querySelector('#linked');
         const icon = document.querySelector('#icon');
+        const appoint = document.querySelector('#appoint');
 
           home.forEach(h => {
             h.addEventListener('click', function(){
@@ -349,6 +350,16 @@
                 } 
             ,1000);
 
+        });
+        appoint.addEventListener('click', function(){
+            contact.style.display = "block";
+            contact.style.zIndex = "0";
+            contactbtn.style.zIndex = "-1";
+            contact.style.animation = "mycontact 1s"
+            Projectbtn.style.zIndex = "1";
+            aboutbtn.style.zIndex = "1";
+            portfoliobtn.style.zIndex = "1";
+            
         });
 
 
